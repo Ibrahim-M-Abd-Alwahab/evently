@@ -4,9 +4,34 @@ import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
 class AppStyles {
-  static TextStyle bold16White = GoogleFonts.elMessiri(
+  static TextStyle bold20Black = GoogleFonts.inter(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+    color: AppColor.blackColor,
+  );
+  static TextStyle medium16White = GoogleFonts.inter(
     fontSize: 16,
+    fontWeight: FontWeight.w500,
+    color: AppColor.whiteColor,
+  );
+  static TextStyle bold20White = GoogleFonts.inter(
+    fontSize: 20,
     fontWeight: FontWeight.bold,
     color: AppColor.whiteColor,
+  );
+  static TextStyle bold24White = GoogleFonts.inter(
+    fontSize: 24,
+    fontWeight: FontWeight.bold,
+    color: AppColor.whiteColor,
+  );
+  static TextStyle regular20White = GoogleFonts.inter(
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    color: AppColor.whiteColor,
+  );
+  static TextStyle bold20Primary = GoogleFonts.inter(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+    color: AppColor.primaryLight,
   );
 }
