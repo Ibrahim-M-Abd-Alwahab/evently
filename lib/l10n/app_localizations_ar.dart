@@ -9,8 +9,23 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get helloWorld => 'مرحبا';
+  String get english => 'الإنجليزية';
 
   @override
-  String get login => 'تسجيل_الدخول';
+  String get arabic => 'العربية';
+
+  @override
+  String get language => 'اللغة';
+
+  @override
+  String get theme => 'النمط';
+
+  @override
+  String get light => 'نهاري';
+
+  @override
+  String get dark => 'ليلي';
+
+  @override
+  String get logout => 'تسجيل الخروج';
 }

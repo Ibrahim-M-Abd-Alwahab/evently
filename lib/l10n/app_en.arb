@@ -1,4 +1,10 @@
 ﻿{
-  "helloWorld": "HelloWorld",
-  "login": "Login"
+  "english": "English",
+  "arabic": "Arabic",
+  "language":"Language",
+  "theme":"Theme",
+  "light":"Light",
+  "dark":"Dark",
+  "logout":"Logout"
+
 }
