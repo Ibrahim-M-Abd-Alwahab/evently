@@ -34,4 +34,9 @@ class AppStyles {
     fontWeight: FontWeight.bold,
     color: AppColor.primaryLight,
   );
+  static TextStyle bold12White = GoogleFonts.inter(
+    fontSize: 12,
+    fontWeight: FontWeight.bold,
+    color: AppColor.whiteColor,
+  );
 }

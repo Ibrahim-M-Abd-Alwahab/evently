@@ -5,6 +5,10 @@
   "theme":"Theme",
   "light":"Light",
   "dark":"Dark",
-  "logout":"Logout"
+  "logout":"Logout",
+  "home":"Home",
+  "map":"Map",
+  "love":"Love",
+  "profile":"Profile"
 
 }
