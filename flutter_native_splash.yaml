@@ -1,13 +1,25 @@
+# ==============================================================================
+# Native Splash Screen Configuration
+# ==============================================================================
 flutter_native_splash:
-  android: true
-  ios: true
-  web: true
+  web: false # إيقاف دعم الويب لمنع توليد ملفات غير ضرورية
 
-  color: "#202020"
-  image: assets/images/splash_screen.png
-  branding: assets/images/branding.png
+  # ----------------------------------------------------
+  # 1. إعدادات الوضع النهاري والليلي (iOS وأندرويد القديم)
+  # ----------------------------------------------------
+  color: "#F2FEFF"                       # خلفية الوضع النهاري
+  color_dark: "#101127"                  # خلفية الوضع الليلي
 
+  image: assets/images/splash_logo.png   # الشعار الرئيسي بالمنتصف
+  branding: assets/images/branding.png   # شعار الحقوق/الماركة بالأسفل
+  branding_mode: bottom                  # المحاذاة للأسفل
+  branding_bottom_padding: 24            # الهامش السفلي بالبكسل
+
+  # ----------------------------------------------------
+  # 2. إعدادات نظام Android 12 والأحدث (Android 12+)
+  # ----------------------------------------------------
   android_12:
-    color: "#202020"
-    image: assets/images/splash.png
-    branding: assets/images/branding12above.png
+    color: "#F2FEFF"                     # خلفية النهاري لـ Android 12+
+    color_dark: "#101127"                # خلفية الليل لـ Android 12+
+    image: assets/images/splash_logo.png # الشعار الرئيسي (يتم قصّه بشكل دائري من أندرويد)
+    branding: assets/images/branding.png # الشعار السفلي

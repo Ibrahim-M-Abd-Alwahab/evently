@@ -1,6 +1,6 @@
 {
-    "name": "evently",
-    "short_name": "evently",
+    "name": "evently_app",
+    "short_name": "evently_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
